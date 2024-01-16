@@ -10,13 +10,13 @@ benchmark "cis_v200_1" {
   children = [
     control.cis_v200_1_1,
     control.cis_v200_1_2,
-    control.cis_v200_1_3,
+    // control.cis_v200_1_3,
     control.cis_v200_1_4,
     control.cis_v200_1_5,
-    control.cis_v200_1_6,
+    // control.cis_v200_1_6,
     control.cis_v200_1_7,
     control.cis_v200_1_8,
-    control.cis_v200_1_9,
+    // control.cis_v200_1_9,
     control.cis_v200_1_10,
     control.cis_v200_1_11,
     control.cis_v200_1_12,
@@ -24,12 +24,12 @@ benchmark "cis_v200_1" {
     control.cis_v200_1_14,
     control.cis_v200_1_15,
     control.cis_v200_1_16,
-    control.cis_v200_1_17,
+    // control.cis_v200_1_17,
     control.cis_v200_1_18,
-    control.cis_v200_1_19,
+    // control.cis_v200_1_19,
     control.cis_v200_1_20,
     control.cis_v200_1_21,
-    control.cis_v200_1_22
+    // control.cis_v200_1_22,
   ]
 
   tags = merge(local.cis_v200_1_common_tags, {

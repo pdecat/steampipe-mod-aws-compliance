@@ -8,20 +8,20 @@ benchmark "cis_v200_4" {
   title         = "4 Monitoring"
   documentation = file("./cis_v200/docs/cis_v200_4.md")
   children = [
-    control.cis_v200_4_1,
+    // control.cis_v200_4_1,
     control.cis_v200_4_2,
     control.cis_v200_4_3,
-    control.cis_v200_4_4,
+    // control.cis_v200_4_4,
     control.cis_v200_4_5,
-    control.cis_v200_4_6,
-    control.cis_v200_4_7,
-    control.cis_v200_4_8,
+    // control.cis_v200_4_6,
+    // control.cis_v200_4_7,
+    // control.cis_v200_4_8,
     control.cis_v200_4_9,
-    control.cis_v200_4_10,
-    control.cis_v200_4_11,
-    control.cis_v200_4_12,
-    control.cis_v200_4_13,
-    control.cis_v200_4_14,
+    // control.cis_v200_4_10,
+    // control.cis_v200_4_11,
+    // control.cis_v200_4_12,
+    // control.cis_v200_4_13,
+    // control.cis_v200_4_14,
     control.cis_v200_4_15,
     control.cis_v200_4_16
   ]
