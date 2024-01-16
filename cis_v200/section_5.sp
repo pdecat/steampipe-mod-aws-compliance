@@ -8,11 +8,11 @@ benchmark "cis_v200_5" {
   title         = "5 Networking"
   documentation = file("./cis_v200/docs/cis_v200_5.md")
   children = [
-    control.cis_v200_5_1,
+    // control.cis_v200_5_1, // Optional
     control.cis_v200_5_2,
     control.cis_v200_5_3,
     control.cis_v200_5_4,
-    control.cis_v200_5_5,
+    // control.cis_v200_5_5, // Optional
     control.cis_v200_5_6
   ]
 

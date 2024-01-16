@@ -39,7 +39,7 @@ benchmark "cis_v200_2_1" {
   documentation = file("./cis_v200/docs/cis_v200_2_1.md")
   children = [
     control.cis_v200_2_1_1,
-    control.cis_v200_2_1_2,
+    // control.cis_v200_2_1_2, // Optional
     control.cis_v200_2_1_3,
     control.cis_v200_2_1_4
   ]
@@ -110,7 +110,7 @@ benchmark "cis_v200_2_2" {
   title         = "2.2 Elastic Compute Cloud (EC2)"
   documentation = file("./cis_v200/docs/cis_v200_2_2.md")
   children = [
-    control.cis_v200_2_2_1
+    control.cis_v200_2_2_1 // Nice
   ]
 
   tags = merge(local.cis_v200_2_2_common_tags, {
