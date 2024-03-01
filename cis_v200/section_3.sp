@@ -11,14 +11,14 @@ benchmark "cis_v200_3" {
     control.cis_v200_3_1,
     control.cis_v200_3_2,
     control.cis_v200_3_3,
-    control.cis_v200_3_4, // Nice
+    // control.cis_v200_3_4, // Nice
     control.cis_v200_3_5,
-    control.cis_v200_3_6, // Nice
+    // control.cis_v200_3_6, // Nice
     // control.cis_v200_3_7, // Nope
     control.cis_v200_3_8,
     // control.cis_v200_3_9, // Optional
-    control.cis_v200_3_10, // Nice
-    control.cis_v200_3_11 // Nice
+    // control.cis_v200_3_10, // Nice
+    // control.cis_v200_3_11 // Nice
   ]
 
   tags = merge(local.cis_v200_3_common_tags, {

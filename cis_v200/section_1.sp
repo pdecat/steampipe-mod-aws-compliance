@@ -27,7 +27,7 @@ benchmark "cis_v200_1" {
     // control.cis_v200_1_17, // Optional
     control.cis_v200_1_18,
     // control.cis_v200_1_19, // Optional
-    control.cis_v200_1_20, // Nice
+    // control.cis_v200_1_20, // Nice
     control.cis_v200_1_21,
     // control.cis_v200_1_22, // Optional
   ]
